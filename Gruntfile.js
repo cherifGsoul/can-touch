@@ -1,4 +1,4 @@
-module.export = function(grunt) {
+module.exports = function(grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         concat: {
@@ -7,19 +7,19 @@ module.export = function(grunt) {
             },
             dist: {
                 src: ['src/*'],
-                dest: 'dist/built.js',
+                dest: 'dist/can.touch.js',
             }
         },
-        server: {
+        connect: {
             options: {
-                port: 9000,
-                base: '.'
+                port: 8000,
+                base: '.',
+                keepalive: true
             }
         }
     });
     grunt.loadNpmTasks('grunt-contrib-concat');
-    grunt.loadNpmTasks('grunt-contrib-qunit');
     grunt.loadNpmTasks('grunt-contrib-connect');
-    grunt.registerTask('default', ['connect']);
+    grunt.registerTask('default', ['concat']);
     grunt.registerTask('server', ['connect']);
 };
