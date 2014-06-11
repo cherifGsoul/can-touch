@@ -6,7 +6,7 @@ module.exports = function(grunt) {
                 separator: ';'
             },
             dist: {
-                src: ['src/*'],
+                src: ['src/event/swipe.js', 'src/can.touch.js'],
                 dest: 'dist/can.touch.js',
             }
         },
