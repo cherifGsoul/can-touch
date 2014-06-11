@@ -1,0 +1,34 @@
+{
+  "name": "can-touch",
+  "version": "0.0.1-dev",
+  "description": "CanJS mobile touch events library",
+  "main": "can.touch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cherifGsoul/can-touch.git"
+  },
+  "keywords": [
+    "canjs",
+    "mvc",
+    "mobile",
+    "javascript",
+    "ui",
+    "events",
+    "mobile-js",
+    "html5"
+  ],
+  "author": "Cherif BOUCHELAGHEM (cherif_b)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cherifGsoul/can-touch/issues"
+  },
+  "homepage": "https://github.com/cherifGsoul/can-touch",
+  "devDependencies": {
+    "grunt-contrib-qunit": "^0.5.1",
+    "grunt-contrib-concat": "^0.4.0",
+    "grunt": "^0.4.5"
+  }
+}
