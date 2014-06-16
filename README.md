@@ -1,6 +1,6 @@
 # can-touch #
 
-## Javascript Mobile frameworj based on [CanJS] (http://canjs.com) library ##
+## Javascript Mobile framework based on [CanJS] (http://canjs.com) library ##
 
 Still in heavy developement, not ready for production
 
