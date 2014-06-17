@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+	<title>Document</title>
+  <link rel="stylesheet" href="../../../extrenals/topcoat/css/topcoat-mobile-dark.css">
+</head>
+<body>
+  <div id="out"></div>
+  <script id="btnTpl" type="text/x-stache-template">
+    <ui-button type="large--quiet" label="Button">
+    </ui-button>
+  </script>
+	<script src="../../../bower_components/jquery/dist/jquery.js"></script>
+  <script src="../../../bower_components/canjs/can.jquery.dev.js"></script>
+  <script src="../../../bower_components/canjs/can.map.define.js"></script>
+  <script src="../../../bower_components/canjs/can.stache.js"></script>
+  <script src="button.js"></script>
+  <script>
+ 
+  $('#out').html(can.view('btnTpl'));
+  </script>
+</body>
+</html>
