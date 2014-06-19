@@ -34,6 +34,7 @@
     "jquery": "~2.1.1",
     "canjs": "~2.1.1",
     "qunit": "~1.14.0",
-    "requirejs": "~2.1.14"
+    "requirejs": "~2.1.14",
+    "jquery-hammerjs": "~1.1.3"
   }
 }
